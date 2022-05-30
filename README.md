@@ -41,7 +41,7 @@ mkdir -p /var/log/supervisor/
 supervisord
 
 sleep 10
-/root/install.sh add_rules
+/root/iptables.sh add_rules
 wait
 modprobe xt_TPROXY
 ```
